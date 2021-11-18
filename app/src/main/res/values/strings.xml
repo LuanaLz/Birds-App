@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Birds</string>
+    <string name="tx_pessoa_fisica">Pessoa Física</string>
+    <string name="tx_pessoa_juridica">Pessoa Jurídica</string>
+</resources>

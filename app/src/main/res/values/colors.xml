@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- themes colors app birds -->
+    <color name="green_500">#14AA2F</color>
+    <color name="purple_500">#3F3D56</color>
+    <color name="grey_200">#F2F2F2</color>
+    <color name="grey_500">#E6E6E6</color>
+    <color name="grey_700">#CCCCCC</color>
+    <color name="pink_500">#E8335A</color>
+    <color name="purple_700">#2F2E41</color>
+    <color name="green_700">#325E4A</color>
+    <color name="black">#FF000000</color>
+    <color name="black_200">#3A3A3A</color>
+    <color name="black_500">#292929</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
