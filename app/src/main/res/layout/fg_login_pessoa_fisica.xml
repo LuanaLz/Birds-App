@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_theme_parcial_green"
+    tools:context="start_app.sc_login_pessoa_fisica">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/birds___logo_green" />
+
+        <Button
+            android:id="@+id/bt_login_google"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="@string/continue_with_gmail"
+            app:icon="@drawable/ic_google"
+            app:iconSize="20dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="@string/continue_with_facebook"
+            app:icon="@drawable/ic_facebook"
+            app:iconSize="25dp" />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/cancelar"
+            android:textColor="@color/pink_500" />
+    </LinearLayout>
+</FrameLayout>

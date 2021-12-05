@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865708756189",
+    "project_id": "birds-e696a",
+    "storage_bucket": "birds-e696a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865708756189:android:5b7b50edf2cfc6ea4c9f34",
+        "android_client_info": {
+          "package_name": "com.social.birds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865708756189-lpru8baka36t565gvpje2tvcvqg662b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAmvnm1B8e_fO4Q2ZrEWZ9JmYblzCwi7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865708756189-lpru8baka36t565gvpje2tvcvqg662b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

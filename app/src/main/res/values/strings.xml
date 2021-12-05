@@ -2,4 +2,18 @@
     <string name="app_name">Birds</string>
     <string name="tx_pessoa_fisica">Pessoa Física</string>
     <string name="tx_pessoa_juridica">Pessoa Jurídica</string>
+    <string name="welcome">Welcome to</string>
+    <string name="continue_with_gmail">Continue with Gmail</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="vamos_construir_um_mundo_melhor">Vamos construir um mundo melhor</string>
+    <string name="e_mail">E-mail</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="vamos_juntos_fazer_um_mundo_melhor">Vamos juntos fazer um mundo melhor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancelar">Cancel</string>
+    <string name="title_birds">BIRDS</string>
+
 </resources>

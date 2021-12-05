@@ -7,60 +7,50 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.social.birds.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link sc_choose_user#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class sc_choose_user extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public sc_choose_user() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment sc_choose_user.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static sc_choose_user newInstance(String param1, String param2) {
-        sc_choose_user fragment = new sc_choose_user();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+    public sc_choose_user() { }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fg_choose_user, container, false);
+        View v = inflater.inflate(R.layout.fg_choose_user, container, false);
+
+        if (savedInstanceState == null) {
+           // getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameBottom, new sc_terms_of_use()).commit();
+        }
+
+        Button btPessoaFisica = v.findViewById(R.id.bt_pessoa_fisica);
+        Button btPessoaJuridica = v.findViewById(R.id.bt_pessoa_juridica);
+
+        btPessoaFisica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new sc_login_pessoa_fisica()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameBottom, new sc_terms_of_use()).commit();
+
+            }
+        });
+
+        btPessoaJuridica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new sc_login_pessoa_juridica()).commit();
+            }
+        });
+
+        return v;
     }
 }
