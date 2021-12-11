@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/grey_200">
+
+
+                <ImageView
+                    android:id="@+id/iv_celebrating"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/ic_celebrating" />
+
+                <TextView
+                    android:id="@+id/tv_celebrating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/year_n_sua_ajuda_fundamental_para_mudar_o_planeta_thanks"
+                    android:textColor="@color/pink_500"
+                    android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <!--<ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dont_img" />-->
+
+</LinearLayout>

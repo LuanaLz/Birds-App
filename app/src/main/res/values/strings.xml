@@ -11,9 +11,27 @@
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="vamos_juntos_fazer_um_mundo_melhor">Vamos juntos fazer um mundo melhor</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cancelar">Cancel</string>
     <string name="title_birds">BIRDS</string>
+    <string name="card_title">title</string>
+    <string name="card_localization">localization</string>
+    <string name="card_status_event">status</string>
+    <string name="card_data_time_event">datetime</string>
+    <string name="card_benefits_event">benefits</string>
+    <string name="card_materials_used_event">materials</string>
+    <string name="card_classification_event">classification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bt_add_event">Cadastrar evento</string>
+    <string name="bt_suggestion_event">veja sugestões de eventos</string>
+    <string name="bt_see_event_pj">veja seus eventos</string>
+    <string name="year_n_sua_ajuda_fundamental_para_mudar_o_planeta_thanks">YEAR! \n SUA AJUDA É FUNDAMENTAL PARA MUDAR O PLANETA. THANKS (:</string>
+    <string name="td_titulo_pj">Titulo</string>
+    <string name="td_status_pj">Status</string>
+    <string name="td_local_event">Local</string>
+    <string name="dia_do_evento">Dia do evento</string>
+    <string name="benef_cios_do_evento">Benefícios do evento</string>
+    <string name="material_distribuido">Material distribuido</string>
+    <string name="classifica_o">Classificação</string>
 
 </resources>

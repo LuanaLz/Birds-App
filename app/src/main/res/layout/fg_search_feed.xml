@@ -2,13 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="10dp"
+    android:layout_marginStart="18dp"
     android:layout_marginTop="10dp"
-    android:layout_marginEnd="10dp"
+    android:layout_marginEnd="18dp"
     android:background="@color/grey_700"
     android:backgroundTint="@color/grey_200"
     android:orientation="vertical">
-
 
 
     <SearchView

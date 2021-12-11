@@ -39,7 +39,7 @@ public class sc_choose_user extends Fragment {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new sc_login_pessoa_fisica()).commit();
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameBottom, new sc_terms_of_use()).commit();
+                //getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameBottom, new sc_terms_of_use()).commit();
 
             }
         });

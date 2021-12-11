@@ -11,7 +11,7 @@ import android.widget.Button;
 
 import com.social.birds.R;
 
-import inside_app.sc_feed_pessoa_fisica;
+import inside_app.pessoa_fisica.sc_feed_pessoa_fisica;
 
 
 public class sc_login_pessoa_fisica extends Fragment {
@@ -31,6 +31,10 @@ public class sc_login_pessoa_fisica extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
        View v = inflater.inflate(R.layout.fg_login_pessoa_fisica, container, false);
+
+        if (savedInstanceState == null) {
+            //getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameBottom, new sc_terms_of_use()).commit();
+        }
 
         Button btLoginGoogle = v.findViewById(R.id.bt_login_google);
         Button btCancel = v.findViewById(R.id.bt_cancel);

@@ -1,4 +1,4 @@
-package inside_app;
+package inside_app.pessoa_fisica;
 
 import android.os.Bundle;
 
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.social.birds.R;
+
+import inside_app.sc_search_feed;
 
 public class sc_feed_pessoa_fisica extends Fragment {
 
@@ -26,6 +28,7 @@ public class sc_feed_pessoa_fisica extends Fragment {
 
         if (savedInstanceState == null) {
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameSearch, new sc_search_feed()).commit();
+            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameListEvent, new sc_feed_list_event()).commit();
         }
 
         // Inflate the layout for this fragment

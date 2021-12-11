@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_app_bar"
+    tools:context="inside_app.pessoa_juridica.sc_add_event_pj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Vamos lá! \n #saveourplanet"
+            android:textColor="@color/black_200"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/et_title_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Titulo"
+            android:ems="10"
+            android:hint="@string/td_titulo_pj"
+            android:inputType="text"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_status_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Status"
+            android:ems="10"
+            android:hint="@string/td_status_pj"
+            android:inputType="text"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_localization_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Local"
+            android:ems="10"
+            android:hint="@string/td_local_event"
+            android:inputType="text"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_datetime_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Dia do evento"
+            android:ems="10"
+            android:hint="@string/dia_do_evento"
+            android:inputType="datetime"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_benefits_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Benefícios do evento"
+            android:ems="10"
+            android:hint="@string/benef_cios_do_evento"
+            android:inputType="datetime"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_materials_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Material distribuido"
+            android:ems="10"
+            android:hint="@string/material_distribuido"
+            android:inputType="datetime"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_classification_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Classificação"
+            android:ems="10"
+            android:hint="@string/classifica_o"
+            android:inputType="datetime"
+            android:paddingTop="10dp"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/bt_add_event"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:text="Adicionar evento" />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/cancelar"
+            android:textColor="@color/pink_500" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

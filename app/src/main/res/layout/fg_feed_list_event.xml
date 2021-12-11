@@ -3,13 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="inside_app.sc_feed_list_event">
+    android:paddingTop="50dp"
+    tools:context="inside_app.pessoa_fisica.sc_feed_list_event">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_list_event"
-        android:layout_margin="2dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 

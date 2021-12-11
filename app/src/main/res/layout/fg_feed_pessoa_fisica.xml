@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wp_theme_all_green"
-    tools:context="inside_app.sc_feed_pessoa_fisica">
+    tools:context="inside_app.pessoa_fisica.sc_feed_pessoa_fisica">
 
 
 
